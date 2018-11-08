@@ -53,15 +53,6 @@ h3 {
 	text-decoration: underline;
 }
 
-a {
-	color: darkred;
-}
-
-#blogTitle {
-	background-color: cadetblue;
-	padding-top: 3px;
-	padding-left: 20px;
-}
 
 #contact {
 	background-color: darkslategray;
@@ -119,6 +110,7 @@ a {
 .column img {
 	margin-top: 8px;
 	vertical-align: middle;
+	padding-bottom: 8px;
 }
 
 .responsive {
@@ -127,11 +119,47 @@ a {
 	height: auto;
 }
 
+.blogBackground {
+	background-color:#ebc7d2;
+}
+
+.twitter-timeline-rendered {
+	margin:auto;
+}
+
+.twt_wrap {
+	text-align: center;
+}
+
+.twt_wrap > iframe {
+	margin: auto;
+}
+
+
+a {
+	color: #0C4B38;
+}
+
+#shop-links {
+	padding-bottom: 16px;
+}
+
+#blogHeader {
+	text-align: center;
+	background-color: #9DD1CF;
+	border-color: #5C5C5C;
+	border-style: dashed;
+	padding-top: 15px;
+	padding-bottom: 10px; 
+	
+}
+
 .shopLinks {
+	list-style-type: none;
+	text-align: center;
 	text-decoration: underline;
 	font-size: 1rem;
-	line-height: 2;
-	padding-left: 30px;
+	line-height: 2.5;
 	margin-bottom: 16px;
 }
 
