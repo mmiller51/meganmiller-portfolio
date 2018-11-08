@@ -113,6 +113,40 @@ h3 {
 	padding-bottom: 8px;
 }
 
+.container {
+	position: relative;
+	max-width: 100%;
+}
+
+.overlay {
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #9DD1CF;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+} 
+
 .responsive {
 	cursor: pointer;
 	max-width: 100%;
@@ -134,7 +168,6 @@ h3 {
 .twt_wrap > iframe {
 	margin: auto;
 }
-
 
 a {
 	color: #0C4B38;
@@ -189,55 +222,6 @@ a {
 		
 	}
 }
-
-
-#myImg01:hover {opacity: 0.7;}
-#myImg02:hover {opacity: 0.7;}
-#myImg03:hover {opacity: 0.7;}
-#myImg04:hover {opacity: 0.7;}
-#myImg05:hover {opacity: 0.7;}
-#myImg06:hover {opacity: 0.7;}
-#myImg07:hover {opacity: 0.7;}
-#myImg08:hover {opacity: 0.7;}
-#myImg09:hover {opacity: 0.7;}
-#myImg10:hover {opacity: 0.7;}
-#myImg11:hover {opacity: 0.7;}
-#myImg12:hover {opacity: 0.7;}
-#myImg13:hover {opacity: 0.7;}
-#myImg14:hover {opacity: 0.7;}
-#myImg15:hover {opacity: 0.7;}
-#myImg16:hover {opacity: 0.7;}
-#myImg17:hover {opacity: 0.7;}
-#myImg18:hover {opacity: 0.7;}
-#myImg19:hover {opacity: 0.7;}
-#myImg20:hover {opacity: 0.7;}
-#myImg21:hover {opacity: 0.7;}
-#myImg22:hover {opacity: 0.7;}
-#myImg23:hover {opacity: 0.7;}
-#myImg24:hover {opacity: 0.7;}
-#myImg25:hover {opacity: 0.7;}
-#myImg26:hover {opacity: 0.7;}
-#myImg27:hover {opacity: 0.7;}
-#myImg28:hover {opacity: 0.7;}
-#myImg29:hover {opacity: 0.7;}
-#myImg30:hover {opacity: 0.7;}
-#myImg31:hover {opacity: 0.7;}
-#myImg32:hover {opacity: 0.7;}
-#myImg33:hover {opacity: 0.7;}
-#myImg34:hover {opacity: 0.7;}
-#myImg35:hover {opacity: 0.7;}
-#myImg36:hover {opacity: 0.7;}
-#myImg37:hover {opacity: 0.7;}
-#myImg38:hover {opacity: 0.7;}
-#myImg39:hover {opacity: 0.7;}
-#myImg40:hover {opacity: 0.7;}
-#myImg41:hover {opacity: 0.7;}
-#myImg42:hover {opacity: 0.7;}
-#myImg43:hover {opacity: 0.7;}
-#myImg44:hover {opacity: 0.7;}
-#myImg45:hover {opacity: 0.7;}
-#myImg46:hover {opacity: 0.7;}
-#myImg47:hover {opacity: 0.7;}
 
 
 .social {
