@@ -93,6 +93,16 @@ h3 {
 	border-radius: 8px;
 }
 
+.heroLink:hover {
+	background-color: #9DD1CF;
+}
+
+.heroLink:active {
+	background-color: #9DD1CF;
+	box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	transform: translateY(4px);
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -247,6 +257,13 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
 .fa:hover {
 	opacity: 0.7;
+}
+
+.fa:active {
+	background-color: #9DD1CF;
+	box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	transform: translateY(4px);
+	
 }
 
 .fa-facebook {
