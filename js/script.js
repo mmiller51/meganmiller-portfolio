@@ -26,3 +26,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-100px";
   }
 }
+
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
