@@ -103,6 +103,15 @@ h3 {
 	transform: translateY(4px);
 }
 
+.googleTranslateText{
+	margin-left: 10px;
+}
+
+#google_translate_element {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
