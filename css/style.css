@@ -68,11 +68,14 @@ h3 {
 .heroHeadline {
 	padding-top: 10px;
 	padding-left: 20px;
+	padding-bottom: 10px;
 	background-color: rgba(255,255,255,0.63); 
 }
 .heroDescription {
 	max-width: 80%;
-	padding-left: 20px;
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-bottom: 5px;
 	background-color: rgba(255,255,255,0.63); 
 }
 
