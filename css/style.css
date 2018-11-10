@@ -322,6 +322,34 @@ a:hover, a:focus, a:active, a:visited, a:link{
 
 
 
+
+.email {
+	text-align: center;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.emailLink {
+	background-color: #EBC7D2;
+	padding: 5px;
+	border-color: #5C5C5C;
+	border-style: dashed;
+	border-radius: 50px;
+	 
+}
+
+.email:hover {
+	background-color: cadetblue;
+	color: white;
+}
+
+.email:active {
+	background-color: #9DD1CF;
+	box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	transform: translateY(4px);
+}
+
+
 .white {color: white}
 .center {text-align: center}.shopSection {
 }
